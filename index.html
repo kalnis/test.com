@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Website Test</title>
+  </head>
+  <script>
+    function myFunction(){
+      var password = document.getElementById("passwordBox");
+      var passwordText = password.value;
+      if(passwordText == "TheOnlyWebsiteDev123"){
+        alert("Correct, welcome!");
+        return true;
+      }else{
+        alert("Get out of here, privacy invader!");
+        return false;
+      }
+    }
+  </script>
+  <body>
+    <p>Password:<input id="box" type="password" placeholder="Type password here.."/></p>
+    <a href="https://annes12345678910.github.io/annes-1/" onclick="return myFunction()"/>
+      Submit for testing
+    </a>
+  </body>
+</html>
